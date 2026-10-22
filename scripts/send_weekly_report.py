@@ -101,10 +101,12 @@ def generate_report_content() -> tuple:
     return plain_text, html_lines
 
 def send_email_via_smtp(subject: str, plain_text: str, html_content: str) -> bool:
-    smtp_host = os.getenv("SMTP_HOST", "smtp.gmail.com")
-    smtp_port = int(os.getenv("SMTP_PORT", 587))
-    smtp_user = os.getenv("SMTP_USERNAME")
-    smtp_pass = os.getenv("SMTP_PASSWORD")
+    smtp_host = os.getenv("SMTP_HOST") or "smtp.gmail.com"
+    port_val = os.getenv("SMTP_PORT", "").strip()
+    smtp_port = int(port_val) if port_val.isdigit() else 587
+    smtp_user = os.getenv("SMTP_USERNAME", "").strip()
+    smtp_pass = os.getenv("SMTP_PASSWORD", "").strip()
+
 
     if not smtp_user or not smtp_pass:
         print("[i] SMTP secrets not configured. Falling back to GitHub Issue report notification.")
