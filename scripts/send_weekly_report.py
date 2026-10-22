@@ -145,8 +145,7 @@ def dispatch_github_issue_report(subject: str, plain_text: str):
         cmd = [
             "gh", "issue", "create",
             "--title", subject,
-            "--body", f"{plain_text}\n\n*Notification delivered to {TARGET_EMAIL} via GitHub Dispatch.*",
-            "--label", "report"
+            "--body", f"{plain_text}\n\n---\n*Notification sent to {TARGET_EMAIL} via GitHub Dispatch.*"
         ]
         res = subprocess.run(cmd, capture_output=True, text=True)
         if res.returncode == 0:
@@ -155,6 +154,7 @@ def dispatch_github_issue_report(subject: str, plain_text: str):
             print(f"[i] Issue note: {res.stderr.strip()}")
     except Exception as e:
         print(f"[i] Issue creation note: {e}")
+
 
 def main():
     plain, html_doc = generate_report_content()
