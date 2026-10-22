@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you utilize this open dataset in academic research, defense policy papers, or IHL reviews, please cite it as below."
+authors:
+  - family-names: "Perera"
+    given-names: "Avi"
+    orcid: "https://orcid.org/0009-0005-1903-6868"
+    affiliation: "University of Cambridge / UNIDIR / Sovereign Dashboard"
+    website: "https://aviperera.com"
+title: "Global Lethal Autonomous Weapons Systems (LAWS) & Military AI Specifications Dataset"
+version: 1.0.0
+date-released: 2026-10-22
+url: "https://aviperera.com"
+repository-code: "https://github.com/a-vip/laws-open-dataset"
+keywords:
+  - "autonomous weapons"
+  - "lethal autonomous weapons systems"
+  - "meaningful human control"
+  - "international humanitarian law"
+  - "geneva conventions"
+  - "military ai"
+  - "artificial intelligence"
+license: "CC-BY-4.0"

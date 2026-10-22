@@ -1,0 +1,30 @@
+{
+  "title": "Global Lethal Autonomous Weapons Systems (LAWS) & Military AI Specifications Dataset",
+  "upload_type": "dataset",
+  "description": "Comprehensive, structured open dataset indexing technical specifications, operational deployments, and International Humanitarian Law (IHL) compliance evaluations for Lethal Autonomous Weapons Systems (LAWS), uncrewed combat platforms, and algorithmic targeting architectures. Authored by Avi Perera.",
+  "creators": [
+    {
+      "name": "Perera, Avi",
+      "affiliation": "University of Cambridge / UNIDIR / Sovereign Dashboard",
+      "orcid": "0009-0005-1903-6868"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "autonomous weapons",
+    "lethal autonomous weapons systems",
+    "LAWS",
+    "military artificial intelligence",
+    "meaningful human control",
+    "international humanitarian law",
+    "defense technology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://aviperera.com",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

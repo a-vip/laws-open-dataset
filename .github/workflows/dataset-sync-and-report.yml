@@ -1,0 +1,51 @@
+name: Dataset Sync & Weekly Intelligence Dispatch
+
+on:
+  schedule:
+    # Weekly on Sundays at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  build-and-report:
+    name: Sync Open Dataset & Send Weekly Intelligence Report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Unit Tests
+        run: |
+          python -m unittest discover tests
+
+      - name: Build Structured Open Dataset
+        run: |
+          python scripts/build_dataset.py
+
+      - name: Commit Updated Dataset Files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data/
+          git diff --staged --quiet || (git commit -m "chore(data): auto-update LAWS open dataset and specifications" && git push)
+
+      - name: Dispatch Weekly Intelligence Report
+        env:
+          TARGET_EMAIL: "workwithavip@gmail.com"
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/send_weekly_report.py
