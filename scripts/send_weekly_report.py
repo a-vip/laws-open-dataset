@@ -135,10 +135,11 @@ def send_email_via_smtp(subject: str, plain_text: str, html_content: str) -> boo
 
 def dispatch_github_issue_report(subject: str, plain_text: str):
     """Creates a weekly report issue on GitHub, which triggers an automated email notification to Avi."""
-    gh_token = os.getenv("GITHUB_TOKEN")
+    gh_token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
     if not gh_token:
-        print("[i] GITHUB_TOKEN not available for issue dispatch.")
+        print("[i] GITHUB_TOKEN/GH_TOKEN not available for issue dispatch.")
         return
+
 
     try:
         cmd = [
