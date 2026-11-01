@@ -1,5 +1,41 @@
 [
   {
+    "id": 4697,
+    "system_name": "OpenAI’s Agent Hacked Australia’s Medicare Portal: What the 84-Day Timeline Reveals",
+    "system_type": "Military AI / Policy Framework",
+    "manufacturer_developer": "See Dossier",
+    "country_of_origin": "International",
+    "publication_date": "2026-10-28",
+    "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
+    "canonical_dossier_url": "https://aviperera.com/openai-agent-australia-medicare-hack/",
+    "lead_researcher": "Avi Perera",
+    "citation_source": "aviperera.com"
+  },
+  {
+    "id": 4520,
+    "system_name": "Unitree H1 and H2",
+    "system_type": "Uncrewed Ground Vehicle (UGV)",
+    "manufacturer_developer": "Unitree Robotics Hangzhou Yushu Technology Co",
+    "country_of_origin": "China    Developmental stage  Commercially available",
+    "publication_date": "2026-10-27",
+    "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
+    "canonical_dossier_url": "https://aviperera.com/unitree-h1-h2/",
+    "lead_researcher": "Avi Perera",
+    "citation_source": "aviperera.com"
+  },
+  {
+    "id": 4456,
+    "system_name": "Has Trump Become a Dictator? What the Evidence Shows, and What It Means for the World",
+    "system_type": "Military AI / Policy Framework",
+    "manufacturer_developer": "See Dossier",
+    "country_of_origin": "International",
+    "publication_date": "2026-10-26",
+    "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
+    "canonical_dossier_url": "https://aviperera.com/is-trump-a-dictator-evidence-law-international-order/",
+    "lead_researcher": "Avi Perera",
+    "citation_source": "aviperera.com"
+  },
+  {
     "id": 4680,
     "system_name": "PHP2Shell: How an AI-Assisted Discovery Pulled Governments Offline, and What It Means for Law and Global Security",
     "system_type": "Military AI / Policy Framework",
@@ -567,7 +603,7 @@
     "id": 3280,
     "system_name": "P.S. Killer Kamikaze Drone",
     "system_type": "Loitering Munition",
-    "manufacturer_developer": "XDOWN",
+    "manufacturer_developer": "XDOWN Incorporated",
     "country_of_origin": "United States",
     "publication_date": "2026-01-08",
     "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
@@ -674,8 +710,8 @@
   {
     "id": 3309,
     "system_name": "Anduril Altius 600",
-    "system_type": "Uncrewed Aerial System (UAS)",
-    "manufacturer_developer": "Anduril",
+    "system_type": "Military AI / Policy Framework",
+    "manufacturer_developer": "Anduril Industries United States, through its Area-I acquisition 2",
     "country_of_origin": "United States",
     "publication_date": "2026-01-08",
     "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
@@ -782,8 +818,8 @@
   {
     "id": 3343,
     "system_name": "Anduril Roadrunner",
-    "system_type": "Uncrewed Aerial System (UAS)",
-    "manufacturer_developer": "Anduril",
+    "system_type": "Military AI / Policy Framework",
+    "manufacturer_developer": "Anduril Industries United States",
     "country_of_origin": "United States",
     "publication_date": "2026-01-08",
     "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
@@ -1087,7 +1123,7 @@
     "country_of_origin": "International",
     "publication_date": "2024-10-24",
     "autonomy_assessment": "Evaluated under Meaningful Human Control (MHC) & IHL",
-    "canonical_dossier_url": "https://aviperera.com/ethical-ai-in-recruitment-ensuring-fair-hiring-practices-in-2024/",
+    "canonical_dossier_url": "https://aviperera.com/ethical-ai-in-recruitment-ensuring-fair-hiring-practices/",
     "lead_researcher": "Avi Perera",
     "citation_source": "aviperera.com"
   },
@@ -1129,12 +1165,12 @@
   },
   {
     "id": 2183,
-    "system_name": "Best AI Regulatory Compliance Tools for Businesses (2024)",
+    "system_name": "Best AI Regulatory Compliance Tools for Businesses (2026)",
     "system_type": "Military AI / Policy Framework",
     "manufacturer_developer": "See Dossier",
     "country_of_origin": "International",
     "publication_date": "2024-10-20",
-    "autonomy_assessment": "Evaluated under Meaningful Human Control (MHC) & IHL",
+    "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
     "canonical_dossier_url": "https://aviperera.com/best-ai-regulatory-compliance-tools-for-businesses-2024/",
     "lead_researcher": "Avi Perera",
     "citation_source": "aviperera.com"
@@ -1160,42 +1196,6 @@
     "publication_date": "2024-10-18",
     "autonomy_assessment": "Evaluated under Meaningful Human Control (MHC) & IHL",
     "canonical_dossier_url": "https://aviperera.com/superintelligence-nick-bostrom-book-summary-notes-highlights/",
-    "lead_researcher": "Avi Perera",
-    "citation_source": "aviperera.com"
-  },
-  {
-    "id": 2118,
-    "system_name": "Finite and Infinite Games: A Multidisciplinary Analysis",
-    "system_type": "Military AI / Policy Framework",
-    "manufacturer_developer": "See Dossier",
-    "country_of_origin": "International",
-    "publication_date": "2024-10-17",
-    "autonomy_assessment": "Evaluated under Meaningful Human Control (MHC) & IHL",
-    "canonical_dossier_url": "https://aviperera.com/finite-and-infinite-games-a-multidisciplinary-analysis/",
-    "lead_researcher": "Avi Perera",
-    "citation_source": "aviperera.com"
-  },
-  {
-    "id": 2063,
-    "system_name": "Human Compatible (Stuart Russell) – Book Summary, Notes & Highlights",
-    "system_type": "Military AI / Policy Framework",
-    "manufacturer_developer": "See Dossier",
-    "country_of_origin": "International",
-    "publication_date": "2024-10-16",
-    "autonomy_assessment": "Evaluated under Meaningful Human Control (MHC) & IHL",
-    "canonical_dossier_url": "https://aviperera.com/human-compatible-stuart-russell-book-summary-notes-highlights/",
-    "lead_researcher": "Avi Perera",
-    "citation_source": "aviperera.com"
-  },
-  {
-    "id": 2054,
-    "system_name": "The Alignment Problem (Brian Christian) – Book Summary, Notes & Highlights",
-    "system_type": "Military AI / Policy Framework",
-    "manufacturer_developer": "See Dossier",
-    "country_of_origin": "International",
-    "publication_date": "2024-10-16",
-    "autonomy_assessment": "Autonomous Targeting / Terminal Guidance",
-    "canonical_dossier_url": "https://aviperera.com/the-alignment-problem-machine-learning-and-human-values-comprehensive-book-summary/",
     "lead_researcher": "Avi Perera",
     "citation_source": "aviperera.com"
   }
